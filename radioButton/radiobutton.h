@@ -10,7 +10,7 @@ class RadioButton: public Gtk::Window
 {
     public:
         RadioButton();
-        ~RadioButton();
+        virtual ~RadioButton();
 
     protected:
         // Child Widgets
